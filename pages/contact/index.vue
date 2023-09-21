@@ -1,19 +1,21 @@
 <template>
     <div>
-        <h1>Welcome to about page</h1>
-        <p>this is my sub title</p>
+        <h1>Welcome to contact page..</h1>
+        <p>this my my contact page..</p>
 
-        <CustomBtn @click="$router.push('/')" title="Goto Home Page"/>
+
+        <CustomBtn @click="$router.push('/')" title="Go to Home Page"/>
     </div>
 </template>
 
 <script>
 import CustomBtn from "@/components/CustomBtn.vue"
-export default {
+export default{
     components: {
         CustomBtn
     }
 }
+
 </script>
 
 <style></style>
