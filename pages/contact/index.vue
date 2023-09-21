@@ -1,7 +1,7 @@
 <template>
     <div>
         <h1>Welcome to contact page..</h1>
-        <p>this my my contact page..</p>
+        <p>this my my contact page.. And I have made some changes here..</p>
 
 
         <CustomBtn @click="$router.push('/')" title="Go to Home Page"/>
