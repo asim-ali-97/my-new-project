@@ -4,7 +4,7 @@
     <p>this is the Home page.. And here i have made some changes..</p>
 
     <CustomBtn @click="$router.push('/about')" title="Goto About Page" />
-    <CustomBtn @click="$router.push('/contact')" title="Go to Contact Page"/>
+    <CustomBtn @click="$router.push('/contact')" title="Go to Contact Page" />
   </div>
 </template>
 
